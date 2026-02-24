@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Register</title>
+</head>
+<body>
+    
+    
+<div class="auth-container">
+    <h2>Create Account</h2>
+    <form id="register-form">
+        <div class="input-group">
+            <label>Full Name</label>
+            <input type="text" id="userName" placeholder="Enter your name" required>
+          
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" id="userEmail" placeholder="Enter your email" required>
+     
+        </div>
+        <div class="input-group">
+    <label>Phone Number</label>
+    <input type="tel" id="userPhone" placeholder="Enter your phone" required>
+</div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" id="userPassword" placeholder="Enter password" required>
+         
+        </div>
+        <div class="input-group">
+    <label>Confirm Password</label>
+    <input type="password" id="rePassword" placeholder="Confirm your password" required>
+
+</div>
+
+        <button type="submit">Register</button>
+            <p id="error-message" style="color: red; font-size: 24px; margin-top: 5px; display: none;"></p>
+        
+        <p>Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+</div>
+    <script src="register.js"></script>
+</body>
+</html>
